@@ -1,0 +1,177 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.mfp-inline-holder .mfp-content{
+		width: 650px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.mfp-inline-holder .mfp-content{
+		width: 550px;
+		height: auto;
+	}
+	.info h3{
+		font-size: 20px;
+	}
+	.info p{
+		margin: 20px 0 0;
+	}
+	#test .row .button a {
+		font-size: 19px;
+	}
+	#comments #owl-comments .owl-item {
+		height: 250px;
+	}
+	#contact .row .form-control {
+		width: 70%;
+		height: 35px;
+		font-size: 15px;
+	}
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#header .menu .row .menu-icon-line{
+		text-align: right;
+	    margin: 0;
+	    width: 90%;
+	    margin-right: 10%;
+	}
+	#home .cover .title-text{
+		margin: 15% 0 7%;
+		text-align: center;
+	}
+	#home .cover .insta-logo{
+		width: 100%;
+	}
+	#home .cover .insta-text{
+		text-align: center;
+		margin-top: 3%;
+	}
+	#home .cover .insta-text h4{
+		margin-top: 15%;
+	}
+	.mfp-inline-holder .mfp-content{
+		width: 80%;
+		height: auto;
+	}
+	.mfp-inline-holder .mfp-content h1{
+		font-size: 30px;
+	}
+	#test .row .button a {
+		font-size: 15px;
+	}
+	#comments #owl-comments .owl-item {
+		height: 400px;
+	}
+	#comments #owl-comments .owl-item:nth-child(odd) {
+		padding-left: 20px;
+	}
+	#comments #owl-comments .owl-item:nth-child(even) {
+		padding-right: 20px;
+	}
+	form{
+		margin-top: 40px;
+	}
+	form .form-group {
+	    margin-left: 25%;
+	}
+	form .btn {
+	    margin-left: 25%;
+	}
+	#contact .row p{
+		text-align: center;
+	}
+	#contact .row{
+		margin-top: 40px;
+	}
+
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	h4{
+		font-size: 15px;
+	}
+	.mfp-inline-holder .mfp-content{
+		width: 80%;
+	}
+	.mfp-inline-holder .mfp-content p{
+		font-size: 13px;
+	}
+	.mfp-inline-holder .mfp-content .term{
+		font-size: 15px;
+	}
+	.mfp-inline-holder .mfp-content h1{
+		font-size: 25px;
+	}
+	.mfp-inline-holder .mfp-content span a{
+		font-size: 15px;
+	}
+	#slider ul li {
+    	font-size: 14px;
+	}
+	#test .row .text h4 {
+		font-size: 15px;
+	}
+	#test .row .button a {
+		font-size: 13px;
+		padding: 15px 30px;
+	}
+	section h1{
+		font-size: 26px;
+	}
+	#comments #owl-comments .owl-item {
+		border: none;
+	}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.insta-text{
+		margin-left: 10%;
+	}
+	
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.mfp-inline-holder .mfp-content{
+		width: 650px;
+	}
+}

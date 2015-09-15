@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/animate/animate.min.css" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css" />
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/skins/blue.css" />
+	<link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+	
+	<div class="hidden"></div>
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+	<![endif]-->
+
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+
+	<section id="header">
+		<header class="menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-offset-8 col-md-4 col-sm-offset-8 col-sm-4 menu-icon-line">
+						<div class="home-icon">
+							<a href="#home">
+								<i class="fa fa-home"></i>
+								<!-- <p>Главная</p> -->
+								<ul>
+									<li>Главная</li>
+								</ul>
+							</a>
+						</div>
+						<div class="what-do-icon">
+							<a href="#what">
+								<i class="fa fa-suitcase"></i>
+								<!-- <p>Что мы делаем</p> -->
+								<ul>
+									<li>Что мы делаем</li>
+								</ul>
+							</a>
+						</div>
+						<div class="how-do-icn">
+							<a href="#how">
+								<i class="fa fa-line-chart"></i>
+								<!-- <p>Услуги</p> -->
+								<ul>
+									<li>Как мы работаем</li>
+								</ul>
+							</a>
+						</div>
+						<div class="com-icon">
+							<a href="#comments">
+								<i class="fa fa-users"></i>
+								<!-- <p>Отзывы</p> -->
+								<ul>
+									<li>Отзывы</li>
+								</ul>
+							</a>
+						</div>
+						<div class="contact">
+							<a href="#contact">
+								<i class="fa fa-envelope"></i>
+								<!-- <p>Контакты</p> -->
+								<ul>
+									<li>Контакты</li>
+								</ul>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</section>
+
+	<section id="home" class="parallax-window" data-parallax="scroll" data-image-src="img/home-pic.jpg" data-z-index="-100">
+			<div class="cover">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12 col-xs-12">
+							<div>
+								<h1 class="title-text"><i class="fa fa-volume-up"></i>Продвижение аккаунта Вашего бреда в Instagram</h1>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6 col-xl-6 col-sm-6 col-xs-12 insta-logo"></div>
+						<div class="col-md-6 col-xl-6 col-sm-6 col-xs-12 insta-text">
+							<h2>
+								Поиск и привлечение вашей<br> целевой аудитории<br>в социальной сети Instagram
+							</h2>
+							<h4>
+								<a href="#what">
+									Узнать подробнее
+								</a>
+							</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section id="slider"> 
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+
+					<div id="owl-demo" class="owl-carousel owl-theme carousel">
+						<div class="item">
+							<h3>
+								Instagram - это социальная сеть с самой большой активной аудиторией.
+							</h3>
+						</div>
+						<div class="item">
+							<h3>
+								Российская аудитория Instagram составляет <strong>13,3 миллиона</strong> пользователей, из них более <strong>60%</strong> это люди <strong>старше 18 лет</strong>.
+							</h3>
+						</div>
+						<div class="item">
+							<h3>
+								В Instagram люди чаще откликаются на контент бренда, примерно в <strong>58 раз</strong> чаще чем в Facebook и более чем в <strong>120 раз</strong> чаще чем в Twitter.
+							</h3>
+						</div>
+						<div class="item">
+							<ul>
+								<h2>Мы нужны вам если:</h2>
+								<li>вы хотите увеличить количество заинтересованных подписчиков на своем аккаунте;</li>
+								<li>рассказать о проходящем мероприятии или акции большому количеству людей;</li>
+								<li>разрекламировать свой товар;</li>
+								<li>повысить узнаваемость и статус бренда;</li>
+								<li>вам необходимо выстроить доверительные отношения с целевой аудиторией, сформировать положительное отношение к бренду.</li>
+							</ul> 
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="what" class="info">
+		<div class="container">
+			<div class="row">
+				<h1>▼    Что мы делаем    ▼</h1>
+
+				<div class="col-md-4 col-sm-4 item">
+					<a href="#push" class="popup_content">
+						<div class="img push-img"><div class="white-hover"></div></div>
+					</a>
+					<div id="push" class="mfp-hide white-popup">
+						<h1>•  Продвижение  •</h1>
+						<p>Прежде всего мы определяем вашу Целевую Аудиторию,  
+							смотрим какими тегами она живет, на кого подписана и 
+							кому ставит лайки. После сбора и фильтрации вашей базы -
+							мы начинаем продвижение аккаунта с помощью массфоловинга.
+						</p><p>Процесс раскрутки  выглядит так:  ваш аккаунт  
+						подписывается  на  аккаунт из вашей целевой аудитории,
+						ставит лайк на одном из его снимков, тем самым создавая 
+						ощущения внимания реального человека, в среднем 60-70% 
+						пользователей обратят внимание на ваш аккаунт,   зайдя 
+						на него посмотреть. Часть из них,  заинтересовавшись 
+						контентом, останется в подписчиках. </p><p>Количество 
+						подписавшихся в ответ  зависит напрямую от точности 
+						подбора целевой аудитории, от качества и интересности 
+						контента.</p>
+
+						<span><a href="#">Заказать</a></span>
+
+						<p class="term">Массфоловинг - это комплексный набор 
+							действий, направленных на увеличение внимания к вашему 
+							аккаунту и общего количества подписок.</p>
+
+					</div>
+
+					<h3>ПРОДВИЖЕНИЕ</h3>
+					<div class="sub-img"></div>
+					<p>Около 20.000 человек обратят внимание на ваш аккаут в Instagram</p>
+				</div>
+
+				<div class="col-md-4 col-sm-4 item">
+					<a href="#consult" class="popup_content">
+						<div class="img consult-img"><div class="white-hover"></div></div>
+					</a>
+					<div id="consult" class="mfp-hide white-popup">
+						<h1>•  Консультации  •</h1>
+						<p>Консультации - это в первую очередь передача нашего опыта. 
+						Мы поделимся с вами нашими наработками и секретами. Расскажем 
+						в деталях, как превратить Instagram в маркетинговый инструмент 
+						и начать зарабатывать.</p>
+						<p>Если вы уже знакомы с SMM, то понимаете как сильно отличается 
+						маркетинг в Instagram от других социальных сетей. Он является 
+						площадкой потребления в первую очередь картинок, текст здесь не 
+						является первоочередной составляющей</p>
+						<p>Посвящая достаточное количество сил и времени построению 
+						своейконтент-стратегии - вы будете  быстрее вовлекать подписчиков. 
+						При этом очень важно не забывать делать разношерстныйконтент, 
+						которыйне будет однообразным и не наскучит вашему подписчику.</p>
+						<p>Мы расскажем вам как коректно подготавливать контент подходящий  
+						именно вам. Поможем повысить активность ваших подписчиков.</p>
+
+						<span><a href="#">Заказать</a></span>
+
+						<p class="term">Консультация - письменное общение со специалистом по 
+						контенту.  Специалист по контенту анализирует аккаунт клиента, 
+						анализирует прямых конкурентов, дает ему рекомендации по улучшению 
+						контента и его составляющим. Данный вид услуги  является бесплатным 
+						для наших клиентов один раз за все время продвижения аккаунта.</p>
+
+					</div>
+					<h3>КОНСУЛЬТАЦИИ</h3>
+					<div class="sub-img"></div>
+					<p>Разработаем вам правильную стратегию развития вашего аккаунта</p>
+				</div>
+					
+				<div class="col-md-4 col-sm-4 item">
+					<a href="#search-audit" class="popup_content">
+						<div class="img search-img"><div class="white-hover"></div></div>
+					</a>
+					<div id="search-audit" class="mfp-hide white-popup">
+						<h1>•  Поиск аудитории  •</h1>
+						<p>Мы грамотно подходим к решению поставленных перед нами задач, 
+						и тащтельно контролируем подбор целевой аудитории, по заданным 
+						вами параметрам. Анализируем те или иные отклики пользователей 
+						на определенные действия.</p>
+						<p>Существует множество способов собрать базу аккаунтов по определенным 
+						критериям, начиная от сбора пользователей, сделавших снимок в пределенной 
+						гео-точке и заканчивая отборкой аккаунтов по конкурентам в социальной 
+						сети Instagram. Применяя различные комбинации отбора, мы получаем 
+						необходимые базы вашей целевой аудитории. Также наши техники могут 
+						осуществить поиск аккаунтов Instagram у пользователей в социальной сети 
+						ВКонтакте по определенным критериям, группам или пользователям.</p>
+						<p>Мы не обещаем бесконечного количества новых подписчиков, но работая в 
+						симбиозе с клиентом, достигаем максимального результата в поставленной нам 
+						задаче, используя все возможности Instagram.</p>
+
+						<span><a href="#">Заказать</a></span>
+
+					</div>
+					<h3>ПОИСК АУДИТОРИИ</h3>
+					<div class="sub-img"></div>
+					<p>Мы работаем с целевой аудиторией по заданным вами параметрам, набирая живых и активных подписчиков</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="spacer"></div>
+
+	<section id="how" class="info">
+		<div class="container">
+			<div class="row">
+				<h1>▼      Как мы работаем     ▼</h1>
+
+				<div class="col-md-3 col-sm-3 item">
+					<div class="img order-img"><div class="white-hover"></div></div>
+					<h3>ЗАКАЗ</h3>
+					<div class="sub-img"></div>
+					<p>Вам достаточно оставить заявку для начала работы с нами. <strong>Мы предоставляем бесплатный 24 часовой тест-период.</strong></p>
+				</div>
+
+				<div class="col-md-3 col-sm-3 item">
+					<div class="img prepare-img"><div class="white-hover"></div></div>
+					<h3>ПОДГОТОВКА</h3>
+					<div class="sub-img"></div>
+					<p>Мы определяем вашу целевую аудторию, для максимально точного охвата.</p>
+				</div>
+					
+				<div class="col-md-3 col-sm-3 item">
+					<div class="img start-img"><div class="white-hover"></div></div>
+					<h3>ЗАПУСК</h3>
+					<div class="sub-img"></div>
+					<p>Мы начнем работу с вашим аккаунтом сразу после оформления заказа.</p>
+				</div>
+				<div class="col-md-3 col-sm-3 item">
+					<div class="img analysis-img"><div class="white-hover"></div></div>
+					<h3>АНАЛИЗ</h3>
+					<div class="sub-img"></div>
+					<p>Постоянный анализ продвижения аккаунта - залог успешной раскрутки.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="down-arrow"><a href="#test"><i class="fa fa-chevron-down"></i></a></div>
+
+	<section id="test">
+		<div class="container">
+			<div class="row">
+				<div class="text col-md-6 col-lg-offset-1 col-lg-5 col-sm-6">
+				<h4>Чтобы показать вам как это работает, мы 
+				предлагаем бесплатную тестовую раскрутку вашего 
+				аккаунта  в Instagram.<br>Оставьте заявку и в 
+				ближайшее время  с вами свяжется менеджер.</h4>
+				</div>
+				<div class="button col-md-6 col-sm-6">
+					<a href="#order">
+						Хочу тестовую раскрутку
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="clients">
+	<div class="container">
+		<div class="row">
+			<h1>▼      Наши клиенты     ▼</h1>
+			<div id="owl-clients" class="carousel">
+				<div class="item"><img src="img/sophiebirdcosmic.jpg" height="523" width="307" alt="sophiebirdcosmic"></div>
+				<div class="item"><img src="img/liepa_s.jpg" height="523" width="307" alt="liepa_s"></div>
+				<div class="item"><img src="img/ceramic_by_ava.jpg" height="523" width="307" alt="ceramic_by_av"></div>
+				<div class="item"><img src="img/mityamusic.jpg" height="523" width="307" alt="mityamusic"></div>
+				<div class="item"><img src="img/tertusalio.jpg" height="523" width="307" alt="tertusalio"></div>
+				<div class="item"><img src="img/chursin_ds.jpg" height="523" width="307" alt="chursin_ds"></div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="comments">
+	<div class="container">
+		<div class="row">
+			<div id="owl-comments" class="carousel">
+				<div class="item">
+					<a href="#">
+						<p>"Хоп хэй, лалалэй!"</p>
+						<p>i-SMM в Instagram очень круто продвигают Инстаграм 
+							профили! Ребята сейчас пушат мой аккаунт и реально работает!  
+							Жена стала больше борщей варить, работа начала быть прибыльней 
+							и самое главное много лайков в инстаграме!!! Теперь самый 
+							бородатый на деревне хожу)</p>
+						<p>В общем советую их! Качественно и честно все! "</p>
+						<p class="sign">-- Станислав Лиепа</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<p>"Уже около полугода мой профиль в Instagram курирует один из лучших SMM 
+							проектов - i-SMM.</p>
+						<p>За это время я познакомилась с множеством ребят из разных стран, которые 
+							стали моими подписчиками. Это очень вдохновляет творить и развиваться.</p>
+						<p>Буду рада всем посоветовать!"</p>
+						<p class="sign">-- Софи Черных</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<p>"Никогда раньше такими вещами не занимался, но, как оказалось это 
+						действительно помогает как в продвижении своих услуг, так собственно и 
+						в заработке. Аудитория за пару дней буквально выросла в 1.5 раза. Напомню, 
+						что считаю #instagram идеальной сетью для фотографов.."</p>
+						<p class="sign">-- Дима Носков</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<p>"Большинство тех, кто предлагает раскрутку в инстаграме вообще не знают чего 
+						делают и не могут гарантировать результата.</p>
+						<p>Ребята же четко сказали мне как работают, сколько и чего будет и когда будет. 
+						Примерно за 2 недели у меня появилось чуть меньше 2000 новых подписчиков.</p>
+						<p>Это реальные люди, которые ставят лайки и пишут комменты. Круто! Буду работать 
+						с ребятами дальше."</p>
+						<p class="sign">-- Игорь Цаплин</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<p>Узнала о ребятах из отзывов популярных российских инстаграммеров - в основном 
+						фтографов. Думала раскручивать иг - дизайнера интерфейсов будет задача непростая, но 
+						ребята, все сделали грамотно и хорошо. Месяц назад было меньше 1000, а теперь 6500! + 
+						али реальные советы по стилистике и наполнению контента.</p>
+						<p>Мои рекомендации!"</p>
+						<p class="sign">-- Elena Saharova</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="#">
+						<p>"У вас дохлый инстаграм лишь потому, что вы не нашли свою целевую аудиторию. И 
+						заказы оттуда не приходят по этой же причине. Поэтому, когда вы захотите повысить 
+						активность своего профиля в инстаграм, рекомендую обратиться к команде i-SMM .</p>
+						<p>Да и 20k выглядит приятнее, чем 169 подписчиков."</p>
+						<p class="sign">-- Евгений Дюжакин</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+
+	<section id="contact" class="info">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<span class="send-text" id="messageResult"><p>Отправьте заявку и в ближайшее время с вами свяжется менеджер.</p></span>
+					<p class="telephone">+7 (909) 013 92 46</p>
+					<p class="e-mail-address">manager@insta-smm.ru</p>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<form method="post" id="formMain" name="formMain" class="wow fadeInLeft">
+						<div class="form-group">
+							<input id="name" type="text" name="name" class="form-control" placeholder="Ваше имя?" maxlength="30" autocomplete="off" required>
+						</div>
+						<div class="form-group">
+							<input id="email" type="email" name="email" class="form-control" placeholder="Ваша почта?" maxlength="30" autocomplete="off" required>
+						</div>
+						<div class="form-group">
+							<input id="telephone" type="tel" name="telephone" class="form-control" placeholder="Номер телефона" maxlength="30" autocomplete="off" required>
+						</div>
+						<div class="form-group">
+							<input id="vkid" type="text" name="vkid" class="form-control" placeholder="ID vkontakte (необязательно)" maxlength="30" autocomplete="off">
+						</div>
+						<button class="btn btn-default" id="button" type="submit"  onclick="">Перезвоните мне!</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="footer">
+		<a href="#"><i class="fa fa-vk"></i></a>
+		<a href="#"><i class="fa fa-instagram"></i></a>
+		<a href="#"><i class="fa fa-facebook"></i></a>
+		<a href="#"><i class="fa fa-twitter"></i></a>
+
+	</section>
+
+
+	<script>
+  		$(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
+	<script src="libs/bootstrap/bootstrap.min.js"></script>
+	<script src="libs/parallax/parallax.min.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/animate/animate-css.js"></script>
+	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/contact.js"></script>
+	<script src="js/common.js"></script>
+	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>

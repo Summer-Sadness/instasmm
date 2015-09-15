@@ -1,0 +1,135 @@
+@import "../bourbon/bourbon";
+
+$color: #25AEA7; //Theme skin
+$text_color: #5F5F5F;
+$bg_light: #FAFAFA;
+$bg_dark: #B6B6B6;
+$menu_color: #000;
+$parallax_cover: #151F2E;
+$second-color: #283B53;
+
+@mixin kerning($kerning){
+	letter-spacing: $kerning + px;
+}
+
+body{
+	color: $color;
+	@include kerning(1);
+}
+
+a:hover{
+	color: $color;
+}
+
+p{
+	color: $text_color;
+}
+
+#header{
+	.menu a{
+		color: $menu_color;
+		&:hover{
+			color: $color;
+		}
+	}
+}
+
+.owl-controls{
+	.owl-pagination{
+		.owl-page{
+			span{
+				background-color: $bg_light;
+				border: 1.5px solid $color;
+			}
+		}
+		.active{
+			span{
+				background-color: $color;
+			}
+		}
+	}
+}
+
+#home{
+	.cover{
+		background-color: $parallax_cover;
+		color: $bg_light;
+		.insta-text a{
+			color: $bg_light;
+			text-transform: uppercase;
+    	border-color: $bg_light;
+    	&:hover{
+    		color: $color;
+    		border-color: $color;
+    	}
+		}
+	}
+}
+
+#slider{
+	color: $color;
+}
+
+#what,
+#how,
+.down-arrow	i{
+	color: $second-color;
+}
+
+.mfp-content{
+	h1{
+		color: $second-color;
+	}
+	a{
+		color: $second-color;
+		border-color: $second-color;
+		&:hover{
+			color: $color;
+			border-color: $color;
+		}
+	}
+	.term{
+		color: $color;
+	}
+}
+
+#test{
+	.button{
+		a{
+			background-color: #25AEA7;
+			&:hover{
+				background-color: #1C8D87;
+    		}
+		}
+	}
+}
+
+#owl-comments{
+	.item{
+		a{
+			p{
+				color: $color;
+			}
+		}
+		
+	}
+}
+
+#contact{
+	p{
+		color: $color;
+	}
+	.btn{
+		background-color: $color;
+	}
+}
+
+#footer{
+	a{
+		color: $second-color;
+		&:hover{
+			color: $color;
+		}
+	}
+	
+}

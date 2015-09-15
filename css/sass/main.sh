@@ -1,0 +1,2 @@
+#!/bin/bash
+sass --watch /var/www/mysite.loc/css/sass/main.scss:/var/www/mysite.loc/css/main.css
