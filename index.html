@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8" />
@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="stylesheet" href="css/skins/blue.css" />
 	<link rel="stylesheet" href="css/media.css" />
+    <link rel="stylesheet" href="css/FormValidation/formValidation.min.css" />
 </head>
 <body>
 	
@@ -415,16 +416,16 @@
 				<div class="col-md-6 col-sm-6">
 					<form method="post" id="formMain" name="formMain" class="wow fadeInLeft">
 						<div class="form-group">
-							<input id="name" type="text" name="name" class="form-control" placeholder="Ваше имя?" maxlength="30" autocomplete="off" required>
+							<input id="name" name="name" class="form-control" placeholder="Ваше имя?" maxlength="30" autocomplete="off" >
 						</div>
 						<div class="form-group">
-							<input id="email" type="email" name="email" class="form-control" placeholder="Ваша почта?" maxlength="30" autocomplete="off" required>
+							<input id="email" name="email" class="form-control" placeholder="Ваша почта?" maxlength="30" autocomplete="off" >
 						</div>
 						<div class="form-group">
-							<input id="telephone" type="tel" name="telephone" class="form-control" placeholder="Номер телефона" maxlength="30" autocomplete="off" required>
+							<input id="telephone" name="telephone" class="form-control" placeholder="Номер телефона" maxlength="30" autocomplete="off" >
 						</div>
 						<div class="form-group">
-							<input id="vkid" type="text" name="vkid" class="form-control" placeholder="ID vkontakte (необязательно)" maxlength="30" autocomplete="off">
+							<input id="vkid" name="vkid" class="form-control" placeholder="ID vkontakte (необязательно)" maxlength="30" autocomplete="off">
 						</div>
 						<button class="btn btn-default" id="button" type="submit"  onclick="">Перезвоните мне!</button>
 					</form>
@@ -442,9 +443,9 @@
 	</section>
 
 
-	<script>
+	<!--<script>
   		$(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
-	</script>
+	</script>-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
 	<script src="libs/bootstrap/bootstrap.min.js"></script>
@@ -456,7 +457,64 @@
 	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
 	<script src="js/contact.js"></script>
 	<script src="js/common.js"></script>
+    <script src="libs/FormValidation/formValidation.min.js"></script>
+    <script src="libs/FormValidation/bootstrap.min.js"></script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#formMain').formValidation({
+            framework: 'bootstrap',
+            button: {
+                selector: '#button',
+                disabled: 'disabled'
+            },
+            // Language
+            locale: 'ru_RU',
+            fields: {
+                name: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Введите ваше имя'
+                        }
+                    }
+                },
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Введите ваш email'
+                        },
+                        regexp: {
+                            regexp: /^[_A-Za-z0-9-\+]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9]+)*(\.[A-Za-z]{2,})$/,
+                            message: 'Вы ввели неправильный email адресс'
+                        }
+                    }
+                },
+                telephone: {
+                    validators: {
+                        notEmpty: {
+                            message: "Введите номер телефона"
+                        },
+                        regexp: {
+                            regexp: /^([+]?[0-9\s-\(\)]{10,13})*$/i,
+                            message: 'Неправильный номер'
+                        }
+                    }
+                },
+                vkid: {
+                    validators: {
+                        stringLength: {
+                            max: 30,
+                            message: 'Слишком длинный ID'
+                        }
+                    }
+                }
+            }
+        });
+    });
+
+    </script>
+
 </body>
 </html>
